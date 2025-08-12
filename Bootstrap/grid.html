@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>grid</title>
+</head>
+
+<body>
+    <!-- script link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+    <!-- nav bar -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#">
+                <img src="https://www.luminartechnolab.com/static/assets/img/logo/logo.png" alt="" width="150px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Placement</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+            </div>
+        </div>
+    </nav>
+
+    <!-- card part -->
+    <div class="row ">
+        <div class="col-lg-4 ">
+            <div class="card p-3 text-light border border-5 rounded"
+                style="width: 18rem; background-color: rgb(42, 9, 9);">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReR9Uns1_rIDNosFY9z7YaB9lGyzOpfd8MXQ&s"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Maldives</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card’s content.</p>
+                    <a href="#" class="btn btn-primary">Book now</a>
+                    <div>
+                        <i class="fa-solid fa-star"></i><span>4.5</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card p-3 text-light border border-5 rounded " style="width: 18rem; background-color: blue;">
+                <img src="https://media2.thrillophilia.com/images/photos/000/082/497/original/1675261154_shutterstock_2148766633.jpg?w=518&h=490&dpr=1.5"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">China</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card’s content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-star "></i><span>4.5</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card p-3 text-light border border-5 rounded " style="width: 18rem;background-color: brown;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMAjw1GR1dMnMLI8u3qYYYerWraXe1OJLUxw&s"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Thailand</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card’s content.</p>
+                    <a href="#" class="btn btn-primary">Book Now</a>
+                    <div>
+                        <i class="fa-solid fa-star"></i><span>4.5</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" style="width: 800px;">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner" style="width: 800px;">
+            <div class="carousel-item active">
+                <img src="https://static.vecteezy.com/system/resources/previews/049/855/296/non_2x/nature-background-high-resolution-wallpaper-for-a-serene-and-stunning-view-photo.jpg"
+                    class="d-block w-100" alt="..." width="100%">
+            </div>
+            <div class="carousel-item">
+                <img src="https://media.istockphoto.com/id/1403500817/photo/the-craggies-in-the-blue-ridge-mountains.jpg?s=612x612&w=0&k=20&c=N-pGA8OClRVDzRfj_9AqANnOaDS3devZWwrQNwZuDSk="
+                    class="d-block w-100" alt="..." width="100%">
+            </div>
+            <div class="carousel-item">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/015/207/267/small/nature-and-mountain-background-majestic-carpathians-beautiful-landscape-breathtaking-view-photo.jpg"
+                    class="d-block w-100" alt="..." width="100%">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="row m-5 border border-5  border-dark">
+
+        <div class="col-md-6">
+            <img src="https://c8.alamy.com/comp/2BD4FWB/woman-working-on-a-laptop-at-cozy-office-working-place-concept-of-remote-work-from-home-colorful-vector-illustration-in-flat-cartoon-style-2BD4FWB.jpg"
+                alt="" class="my-5 w-100 img-thumbnail">
+            <h1 class="mb-5">Heading 1</h1>
+            <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga dolor modi fugit praesentium
+                minus recusandae fugiat nulla ad aut nostrum, asperiores quos perspiciatis magnam. Quam, animi! Tenetur
+                quasi quae laboriosam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores quidem
+                consequatur architecto deleniti qui? Maxime possimus quidem reprehenderit corporis dignissimos, quos
+                ducimus. Nisi voluptatem quos in delectus fuga. Incidunt, quia!</p>
+
+        </div>
+
+        <div class="col-md-6">
+
+            <h1 class="">Heading 2</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut assumenda, illum eaque quidem
+                architecto cupiditate nostrum repellendus aperiam libero odio perferendis sunt aspernatur expedita eius
+                quo voluptate suscipit quae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                exercitationem quasi debitis accusamus aut est quis fuga vero delectus. Temporibus numquam sed
+                consequuntur harum eveniet. Tenetur asperiores voluptate ipsum. Iure.</p>
+            <hr>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Sub Heading 1</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ipsa aliquid, cumque tempore
+                        ratione adipisci unde blanditiis delectus! Illum recusandae quaerat id, adipisci veniam aut est
+                        excepturi accusamus? Commodi, ducimus? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Sit corporis assumenda quidem sint praesentium ipsam dolore quas. Magni hic sapiente voluptatem
+                        nostrum possimus sint ab iure reiciendis pariatur in. Facere!</p>
+                    <img src="https://media.istockphoto.com/id/1188816693/vector/young-teenage-woman-uses-laptop-for-work-or-chatting-with-friends.jpg?s=612x612&w=0&k=20&c=FRUajWyXnGV6UshCz72GDz4ImV0BrU9VTXoFvdRz6U4="
+                        alt="" class="w-100  img-fluid">
+                </div>
+
+                <div class="col-lg-6 border p-lg-0 p-md-3">
+                    <img src="https://cbx-prod.b-cdn.net/COLOURBOX56124868.jpg?width=800&height=800&quality=70" alt=""
+                        class="w-75 ">
+                    <h2>Sub Heading 2</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dicta nam porro sit quibusdam eum
+                        aliquid consectetur molestiae eligendi ratione incidunt, reprehenderit cupiditate odio magni
+                        debitis quis asperiores laudantium perferendis. Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- col-lg:for large devies -->
+    <div class="my-5 text-center">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Launch demo modal
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

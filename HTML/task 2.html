@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 2</title>
+    <style>
+      body {
+        background-color: rgb(164, 111, 214);
+      }
+
+      button {
+        background-color: rgb(78, 9, 142);
+        color: white;
+        border: 3px solid black;
+        border-radius: 5px;
+      }
+
+      table {
+        text-align: left;
+        margin: auto;
+      }
+
+      h1 {
+        text-align: center;
+      }
+      th {
+        padding: 7px 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <h1><u>Register Form</u></h1>
+      <br /><br />
+      <table>
+        <tr>
+          <th>
+            <label>Username:</label>
+          </th>
+          <th>
+            <input type="text" placeholder="Username Please" />
+          </th>
+        </tr>
+        <tr>
+          <th>
+            <label>Age:</label>
+          </th>
+          <th>
+            <input type="text" placeholder="Age Please" />
+          </th>
+        </tr>
+
+        <tr>
+          <th>
+            <label>Address:</label>
+          </th>
+          <th>
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="5"
+              placeholder="Type your address here..."
+            ></textarea>
+          </th>
+        </tr>
+
+        <tr>
+          <th>
+            <label for="">Date of Birth:</label>
+          </th>
+          <th>
+            <input type="date" />
+          </th>
+        </tr>
+
+        <tr>
+          <th>
+            <label for="">E-mail:</label>
+          </th>
+          <th>
+            <input type="text" placeholder="xyz@gmail.com" />
+          </th>
+        </tr>
+
+        <tr>
+          <th>
+            <label for="">Gender:</label>
+          </th>
+          <th>
+            <input name="gender" type="radio" /><label for="">Female</label>
+            <input name="gender" type="radio" /><label for="">Male</label>
+            <input name="gender" type="radio" /><label for="">Others</label>
+          </th>
+        </tr>
+
+        <tr>
+          <th>
+            <label for="">Select Hobbies:</label>
+          </th>
+          <th>
+            <input type="checkbox" /><label for="">Gaming</label>
+            <input type="checkbox" /><label for="">Reading</label>
+            <input type="checkbox" /><label for="">Cooking</label>
+          </th>
+        </tr>
+
+        <tr>
+          <th>
+            <label for="">Choose Place:</label>
+          </th>
+          <th>
+            <select name="" id="">
+              <option hidden value="">choose a place</option>
+              <option value="">Kozhikode</option>
+              <option value="">Kottayam</option>
+              <option value="">Kollam</option>
+            </select>
+          </th>
+        </tr>
+
+        <tr>
+          <th>
+            <label for="">Upload CV:</label>
+          </th>
+          <th>
+            <input type="file" />
+          </th>
+        </tr>
+
+        <tr>
+          <th></th>
+          <th>
+            <button>Submit</button>
+            <button>Cancel</button>
+          </th>
+        </tr>
+      </table>
+
+      <!-- <input type="button" value="Cancel"> -->
+    </form>
+  </body>
+</html>

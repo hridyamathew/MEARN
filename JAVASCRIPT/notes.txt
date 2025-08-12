@@ -1,0 +1,222 @@
+Node JS:
+    - js run time environment and js library
+    - js used to make web page dynamic
+
+Data Types:
+    -Primitive:
+        -number
+        -string
+        -boolean
+        -undefined: variable with no value yet
+        -null
+        -bigInt: very big integer
+        -symbol: to create unique identifier
+        
+    -Non Primitive:
+        -object: collection of key value pairs
+-------------
+Keywords:
+    -typeof: used to check the type of the Data
+-------------
+Functions:
+    -console.log(): to display content
+-------------
+Variables: used to temperorily store data
+    -ways to create Variables
+        - var 
+            syntax: var var_name / var var-name = value
+        - const
+            syntax: const var-name = value
+        - let
+            syntax: let var_name / let var-name = value
+--------------
+Identifier: a unique name defined by the developer to define variable, class, function etc...
+    - rules for creating identifier
+        - starts with _ or letters
+        - don't use keywords
+--------------
+- hoisting: accessing variable/function before declaration
+--------------
+
+var:
+--------------
+- reassign with any type of value
+- scope: global (can access anywhere in the code)
+- hoisted with value undefined
+
+const:
+--------------
+- cannot reassign with another value
+- scope: block
+- hoisted with no value
+
+let:
+---------------
+- can reassign its value
+- scope: block
+- hoisted without value
+
+Operators in js:
+----------------
+- assignment (=)
+- Arithmetic (+, -, *, /, %, **)
+- Relational (<, <=, >, >=, !=, ==, ===)
+    - ==: x = '10'
+          y = 10
+          x == y
+          return: true
+        - it checks value only not the type
+    - ===:
+          x = '10'
+          y = 10
+          x === y
+          return: false
+        - it checks the value and also type
+
+- logical (&&, ||, !)
+- increment (++), decrement (--)
+- shorthand operators (+=, -=, *=, /=)
+
+
+- joining different types of data in js:
+    - using comma
+    - using +
+    -using template literals ( `` )
+
+conditional statements in js:
+--------------------------------------------
+- if 
+- truthy:
+    syntax: condition && statement
+- if - else
+- ternary operator:
+    syntax: condition?true statement:false statement
+- else if ladder
+- switch
+
+----------------------------------------------------
+Looping statements in js:
+    - while Loop
+        syntax:
+            while(condition){
+                statements
+            }
+
+    - for loop
+        syntax:
+            for(initialize ; condition ; update ){
+                statements
+            }
+--------------------------------------------------------
+functions:
+    - used to perform specific task
+    - 2 parts:
+        - function definition
+            syntax: function function_name(parameters){
+                function body
+            }
+        - function call: to execute the function
+            syntax: function_name(arguments)
+
+Types of functions:
+    - Arrow function: alternative for function definition
+        syntax:
+        function_name = (parameters) => {
+            function body
+        }
+
+    - Pre-defined functions:
+        ex: console.log(), Math.floor(), Math.ceil(), etc.
+    
+    - Call back funtions:
+        - a function definition inside a function call
+
+    - anonymous function: self-executing and nameless function
+
+    - nested function: function definition inside another function definition
+        - closure property:
+            in nested functions, child can acces data in parent, but parent cannot access data in child
+
+    - recursive function: function definition that call itself
+-------------------------------------------------------------------------------------------------------------------
+Arrays:
+    - to store multiple values of different types
+    - typeof array is object
+    - array-name.length property: to find length of array
+    - accessing elements from array
+        - using for loop
+        - using for of loop
+        - using for-in loop
+
+    - Array Methods:
+        - pre defined methods to manipulate array data
+        - push(item): add item at the end of the array
+        - unshift(item): add item to the first of the array
+        - pop(): to remove last element of the array and returns that element
+        - shift(): to remove first element of the array
+        - sort(compare fn): to sort an array
+                     compare fn :(num1,num2)=>num1-num2  :ascending
+                     compare fn :(num1,num2)=>num2-num1  :descending
+        - forEach(callbackfn: (value,index,array)=>void) 
+                         :alternative of for-of Loop 
+        - filter(callbackfn:(value,index,array)=>[]) return an array with elements satifying from 
+                            an exiting array.
+        - find(): return an item satifying the condition from an exiting array.
+        - map(): return a new array with values after applying a mapping function to an existing array
+                syntax - arrayName.map()
+        - reduce(callback, initialValue): can be used to find largest, smallest, and sum of numbers in array
+            callback:(required): a function executed on each element
+            callback(accumulator, currentValue, currentIndex, Array)
+            returns a single value
+            initialValue: is the first value of accumulator, if we didn't give that then it takes the first value  of the array
+        - reduceRight: same as that of reduce, but execution ocurs from rigt to left of the array
+        - flat(): used to reduce the dimension of multidimensional array to one dimension
+            - flat(): reduce only one dimension
+            - flat(2): reduces 2 dimension
+            - flat(Infinity): reduces to one dimension
+        - includes(item): to check whether an item in array or not
+            - returns true or false
+        - indexOf(element): returns the index of the element
+        - splice(startingIndex, deleteCount): to remove array elements
+            -splice(2, 1, replace): can also replace elements
+        - join(seperator):combines array elements as a single string
+---------------------------------------------------------------------------------------------------
+STRING:
+    - group of characters
+    - content that put in '' or ""
+    - string methods:
+         - str.length
+         - substring(startindex, endindex+1): returns a part of the string
+         - startsWith("str")
+         - endsWith("str")
+         - toLowerCase()
+         - toUpperCase()
+         - trim(): removes the white spaces in starting and ending
+         - split(seperator) : converts substrings of the string to array
+         - includes(str)
+         - slice(startindex, endindex+1): to get a portion of the string
+            - can aslo give negative index
+-----------------------------------------------------------------------------------------------------------
+OBJECT:
+    - used to store multiple data in a single variable
+    - data stored as key value pair
+    - accessing data using key
+        - syntax: object_name["key"], object_name.key
+    - 'in' operator:
+        - used to check whether a key present in an object or not
+        - syntax: key in object_name, returns boolean value
+    - hasOwnProperty("key"): same as 'in'
+    - Object.values(object_name): returns an array with values
+    - Object.keys(object_name): returns an aray with keys
+    - Object.assign(object-name, {key:value})
+----------------------------------------------------------------------------------------------------------
+OOPS:
+    OOPs stands for Object Oriented Programming ,it is a Programming style where codes you organize code into object.
+    object- that holds :
+        - Data: called properties (ex: name,age,price..)
+        - Behaviors: called methods (functions that work on data)
+    -Core concepts:
+        -class: a blue print / templatefor creating object
+        -object: a real world enity created from the class
+        -constructor: a method used to initialie class property at the time of object creation
+        -reference : 'this' keyword: used to refer properties to its class

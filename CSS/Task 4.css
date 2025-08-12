@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    margin: 15px 244px;
+}
+.heading{
+    font-size: 100px;
+    font-weight: lighter;
+    color: rgb(42, 42, 42);
+    z-index: 1;
+    position: fixed;
+}
+#head1{
+    margin: 30px 580px;
+}
+#head2{
+    margin-top: 36px;
+    margin-left: 450px;
+}
+.parent-box{
+    position: relative;
+
+}
+.box{
+    width: 290px;
+    min-height: 450px;
+    position: absolute;
+    top: 0;
+}
+#box2{
+    margin-left: 370px;
+    position: relative;
+    top: 80px;
+}
+#box3{
+    margin-left: 740px;
+}
+img{
+    width: 290px;
+    height: 340px;
+    border-radius: 4px;
+}
+h3{
+    padding: 6px 5px;
+}
+p{
+    padding: 5px 5px;
+    text-align: justify;
+}

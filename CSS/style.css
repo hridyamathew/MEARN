@@ -1,0 +1,40 @@
+
+*{
+    font-style: italic;
+}
+ul{
+    color: rgb(7, 93, 93);
+}
+
+
+#head{
+    color: blue;
+}
+
+h4,ul{
+    font-size: 19px;
+}
+
+.group{
+    text-decoration: underline;
+}
+
+/* descendent selectror */
+div h1{
+    color: rgb(54, 136, 108);
+}
+
+/* child selector */
+div>p{
+    background-color: rgb(206, 225, 225);
+}
+
+/* sibling selector */
+p~h2{
+    color: red;
+}
+
+/* immediate sibling */
+h1+p{
+    text-decoration: underline;
+}

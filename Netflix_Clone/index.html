@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aladin&family=Baumans&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Oregano:ital@0;1&family=Redressed&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sevillana&family=Sue+Ellen+Francisco&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="header">
+      <!-- navbar -->
+      <nav>
+        <img src="./images/logo.png" alt="" width="220px" />
+        <div class="nav-content">
+          <div class="dropdown-wrapper">
+            <i class="fa-solid fa-language" id="lang-icon"></i>
+            <select name="" id="language">
+              <option value="English">English</option>
+              <option value="Malayalam">Hindi</option>
+            </select>
+            <i class="fa-solid fa-caret-down" id="down-button"></i>
+          </div>
+
+          <a class="sign-button" href="">Sign In</a>
+        </div>
+      </nav>
+
+      <!-- header content -->
+      <div class="header-content">
+        <h1>Unlimited movies, TV <span>shows and more</span></h1>
+        <h5>Starts at ₹149. Cancel at any time.</h5>
+        <p>
+          Ready to watch? Enter your email to create or restart your membership.
+        </p>
+        <div class="started">
+          <input type="email" placeholder="Email Address" />
+          <a href=""
+            >Get Started
+            <span><i class="fa-solid fa-angle-right" id="right-icon"></i></span
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="trending">
+        <h4>Trending Now</h4>
+        <div id="movieCarousel" class="carousel slide">
+          <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active first-slide">
+              <div class="d-flex justify-content-center">
+                <div class="movie">
+                  <img src="./images/movie1.webp" class="img-fluid movie-img" />
+                  <h1 class="number">1</h1>
+                </div>
+
+                <div class="movie">
+                  <img src="./images/movie2.webp" class="img-fluid movie-img" />
+                  <h1 class="number">2</h1>
+                </div>
+
+                <div class="movie">
+                  <img src="./images/movie3.webp" class="img-fluid movie-img" />
+                  <h1 class="number">3</h1>
+                </div>
+                <div class="movie">
+                  <img src="./images/movie4.webp" class="img-fluid movie-img" />
+                  <h1 class="number" id="four">4</h1>
+                </div>
+                <div class="movie">
+                  <img src="./images/movie5.webp" class="img-fluid movie-img" />
+                  <h1 class="number">5</h1>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="carousel-item second-slide">
+              <div class="d-flex justify-content-center">
+                <div class="movie">
+                  <img src="./images/movie6.webp" class="img-fluid movie-img" />
+                  <h1 class="number">6</h1>
+                </div>
+                <div class="movie">
+                  <img src="./images/movie7.webp" class="img-fluid movie-img" />
+                  <h1 class="number">7</h1>
+                </div>
+                <div class="movie">
+                  <img src="./images/movie8.webp" class="img-fluid movie-img" />
+                  <h1 class="number">8</h1>
+                </div>
+                <div class="movie">
+                  <img src="./images/movie9.webp" class="img-fluid movie-img" />
+                  <h1 class="number">9</h1>
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/movie10.webp"
+                    class="img-fluid movie-img"
+                  />
+                  <h1 class="number">10</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#movieCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#movieCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Third section -->
+      <div class="more">
+        <h4 class="more-heading">More reasons to join</h4>
+        <div class="more-main">
+          <div class="more-section">
+            <h4>Enjoy on your TV</h4>
+            <p>
+              Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
+              Blu-ray players and more.
+            </p>
+            <i class="fa-solid fa-tv more-icon"></i>
+          </div>
+          <div class="more-section">
+            <h4>Download your shows to watch offline</h4>
+            <p>
+              Save your favourites easily and always have something to watch.
+            </p>
+            <i class="fa-solid fa-download more-icon"></i>
+          </div>
+          <div class="more-section">
+            <h4>Watch everywhere</h4>
+            <p>
+              Stream unlimited movies and TV shows on your phone, tablet, laptop
+              and TV.
+            </p>
+            <i class="fa-solid fa-mobile-screen more-icon"></i>
+          </div>
+          <div class="more-section">
+            <h4>Create profiles for kids</h4>
+            <p>
+              Send kids on adventures with their favourite characters in a space
+              made just for them — free with your membership.
+            </p>
+            <i class="fa-solid fa-child-reaching more-icon"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fourth section -->
+      <div class="questions">
+        <h4 class="questions-heading">Frequently Asked Questions</h4>
+        <div class="qa">
+          <input type="checkbox" id="check1" hidden />
+
+          <label for="check1" class="question">
+            <h4>What is Netflix?</h4>
+            <div class="question-icon">
+              <i class="fa-regular fa-plus plus"></i>
+              <i class="fa-solid fa-xmark cross"></i>
+            </div>
+          </label>
+          <div class="answer">
+            <p>
+              Netflix is a streaming service that offers a wide variety of
+              award-winning TV shows, movies, anime, documentaries and more – on
+              thousands of internet-connected devices.
+            </p>
+            <p>
+              You can watch as much as you want, whenever you want, without a
+              single ad – all for one low monthly price. There's always
+              something new to discover, and new TV shows and movies are added
+              every week!
+            </p>
+          </div>
+        </div>
+
+        <div class="qa">
+          <input type="checkbox" id="check2" hidden />
+
+          <label for="check2" class="question">
+            <h4>How much does Netflix cost?</h4>
+            <div class="question-icon">
+              <i class="fa-regular fa-plus plus"></i>
+              <i class="fa-solid fa-xmark cross"></i>
+            </div>
+          </label>
+          <div class="answer">
+            <p>
+              Watch Netflix on your smartphone, tablet, Smart TV, laptop, or
+              streaming device, all for one fixed monthly fee. Plans range from
+              ₹149 to ₹649 a month. No extra costs, no contracts.
+            </p>
+          </div>
+        </div>
+
+        <div class="qa">
+          <input type="checkbox" id="check3" hidden />
+
+          <label for="check3" class="question">
+            <h4>Where can I watch?</h4>
+            <div class="question-icon">
+              <i class="fa-regular fa-plus plus"></i>
+              <i class="fa-solid fa-xmark cross"></i>
+            </div>
+          </label>
+          <div class="answer">
+            <p>
+              Watch anywhere, anytime. Sign in with your Netflix account to
+              watch instantly on the web at netflix.com from your personal
+              computer or on any internet-connected device that offers the
+              Netflix app, including smart TVs, smartphones, tablets, streaming
+              media players and game consoles.
+            </p>
+            <p>
+              You can also download your favourite shows with the iOS or Android
+              app. Use downloads to watch while you're on the go and without an
+              internet connection. Take Netflix with you anywhere.
+            </p>
+          </div>
+        </div>
+
+        <div class="qa">
+          <input type="checkbox" id="check4" hidden />
+
+          <label for="check4" class="question">
+            <h4>How do I cancel?</h4>
+            <div class="question-icon">
+              <i class="fa-regular fa-plus plus"></i>
+              <i class="fa-solid fa-xmark cross"></i>
+            </div>
+          </label>
+          <div class="answer">
+            <p>
+              Netflix is flexible. There are no annoying contracts and no
+              commitments. You can easily cancel your account online in two
+              clicks. There are no cancellation fees – start or stop your
+              account anytime.
+            </p>
+          </div>
+        </div>
+
+        <div class="qa">
+          <input type="checkbox" id="check5" hidden />
+
+          <label for="check5" class="question">
+            <h4>What can I watch on Netflix?</h4>
+            <div class="question-icon">
+              <i class="fa-regular fa-plus plus"></i>
+              <i class="fa-solid fa-xmark cross"></i>
+            </div>
+          </label>
+          <div class="answer">
+            <p>
+              Netflix has an extensive library of feature films, documentaries,
+              TV shows, anime, award-winning Netflix originals, and more. Watch
+              as much as you want, anytime you want.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- restart section -->
+      <div class="restart">
+        <p>
+          Ready to watch? Enter your email to create or restart your membership.
+        </p>
+        <div class="started" id="down-started">
+          <input type="email" placeholder="Email Address" />
+          <a href=""
+            >Get Started
+            <span><i class="fa-solid fa-angle-right" id="right-icon"></i></span
+          ></a>
+        </div>
+      </div>
+      <!-- footer -->
+      <div class="footer">
+        <p class="call">
+          Questions?Call <a href="" class="phn-num"> 000-800-919-1743</a>
+        </p>
+        <div class="row link-section my-5">
+          <div class="col-md-3 links">
+            <a href="">FAQ</a>
+            <a href="">Help Centre</a>
+            <a href="">Account</a>
+            <a href="">Media Center</a>
+          </div>
+          <div class="col-md-3 links">
+            <a href="">Investor Relations</a>
+            <a href="">Jobs</a>
+            <a href="">Ways to Watch</a>
+            <a href="">Terms of Use</a>
+          </div>
+          <div class="col-md-3 links">
+            <a href="">Privacy</a>
+            <a href="">Cookie Preferences</a>
+            <a href="">Corporate Information</a>
+            <a href="">Contact us</a>
+          </div>
+          <div class="col-md-3 links">
+            <a href="">Speed Test</a>
+            <a href="">Legal Notices</a>
+            <a href="">Only on Netflix</a>
+          </div>
+        </div>
+        <p class="netflix">Netflix India</p>
+        <p class="last">
+          This page is protected by Google reCAPTCHA to ensure you're not a bot.
+          <a href="">Learn more.</a>
+        </p>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

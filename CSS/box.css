@@ -1,0 +1,13 @@
+h1{
+    border: 2px solid blue;
+    padding: 20px 30px 10px;
+    margin: 80px;
+    color: red;
+}
+span{
+    border: 2px dotted red;
+    color: blue;
+    padding: 50px 30px 10px;
+    margin: 80px;
+}
+/* for inline element like span, only left and right paddiing and margin is possible, top and bottom will overlap to the remaining elements */

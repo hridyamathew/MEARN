@@ -1,0 +1,111 @@
+
+nav {
+  position: fixed;
+  z-index: 1;
+}
+
+.heading2 {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.heading {
+  font-weight: bold;
+}
+
+.first {
+  background-color: rgb(247, 247, 246);
+  padding: 120px 100px;
+}
+.form1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.login h6 {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.login {
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon1 {
+  font-size: medium;
+  color: black;
+}
+
+#link {
+  font-size: small;
+  font-weight: bold;
+}
+
+#icon {
+  font-weight: bold;
+}
+.header-1 {
+  padding: 50px 50px;
+}
+
+.header-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-1 p {
+  margin-bottom: 30px;
+}
+.button {
+  padding: 5px 25px;
+  color: white;
+}
+#btn1 {
+  background-color: rgb(222, 138, 108);
+  border: 1px solid rgb(222, 138, 108);
+}
+
+#btn2 {
+  background-color: rgb(105, 184, 218);
+  border: 1px solid rgb(105, 184, 218);
+}
+
+.second {
+  background-color: rgb(247, 247, 246);
+  padding: 10px 20px;
+}
+.second-content p{
+    font-size: medium;
+    font-weight: bold;
+}
+.buy{
+    margin-left: 60%;
+    color: rgb(105, 184, 218);
+}
+.dollar{
+    color: rgb(105, 184, 218);
+}
+.second-head{
+    margin-top: 40px;
+}
+.about{
+    padding-top: 40px;
+    background-color: rgb(247, 247, 246);
+}
+
+.about2{
+    padding: 80px 100px;
+}
+.blog h2{
+    font-weight: bold;
+    text-align: center;
+}

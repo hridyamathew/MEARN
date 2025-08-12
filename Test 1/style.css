@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Mulish;
+}
+/* .main{
+    display: flex;
+} */
+.container{
+    width: 80%;
+    margin-left: 20%;
+}
+.sidebar{
+    height: 100vh;
+    width: 20%;
+    background-color: rgba(4, 90, 144, 0.918);
+    position: fixed;
+    /* z-index: 1; */
+    text-align: center;
+}
+.sidebar-content{
+    padding: 120px 50px;
+}
+.sidebar-content h2{
+    color: white;
+    margin: 20px 0px;
+    font-weight: 400;
+}
+.sidebar-link{
+    padding: 40px 0px;
+    height: 80%;
+    display: flex;
+    flex-direction:column;
+    gap: 25px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+    font-size: 14px;
+}
+.header{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20240710/pngtree-waffle-on-white-dish-on-white-background-image_15869714.jpg);
+    height: 450px;
+    background-size: contain;
+    background-position: center;  
+}
+.content{
+    padding: 0px 75px;
+}
+.home-section{
+    padding: 50px 0px;
+}
+.home-section h2{
+    margin: 20px 0px;
+    color: rgba(4, 90, 144, 0.918);
+    font-weight: 500;
+}
+p{
+    text-align: justify;
+    line-height: 1.7rem;
+}
+
+.about{
+    padding: 50px 0px;
+    display: flex;
+}
+.about-section{
+    padding: 5px 20px;
+}
+.about-section h2{
+    margin-bottom: 20px;
+    color: rgba(4, 90, 144, 0.918);
+    font-weight: 500;
+}
+.about-section p{
+    margin-bottom: 20px;
+}
+#last-p{
+    margin-bottom: 40px;
+}
+.about-section a{
+    color: white;
+    background-color: rgba(4, 90, 144, 0.918);
+    text-decoration: none;
+    padding: 10px 30px;
+}
+
+
+.gallery{
+    padding: 50px 0px;
+}
+.gallery h2{
+    margin-bottom: 20px;
+    color: rgba(4, 90, 144, 0.918);
+    font-weight: 500;
+}
+.gallery-section {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+

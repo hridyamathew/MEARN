@@ -1,0 +1,24 @@
+
+.head{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent-box{
+    margin: 10px 250px;
+    width: 1000px;
+    height: 400px;
+    background-color: rgb(180, 180, 180);
+    display: flex;
+    /* for horizontal alignment use justify content */
+    justify-content: space-evenly;
+    /* for vertical alignment use align items */
+    align-items: center;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+} 
+ 

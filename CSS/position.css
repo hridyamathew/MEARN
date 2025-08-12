@@ -1,0 +1,68 @@
+/* to remove the margin and padding given by browser */
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image: url(https://collegeacademy.in/test/tutorial/assets/1.png);
+    height: 400px;
+    /* background-size: cover, contain; to make the image in full div */
+    background-size: cover;
+    /* background-position: center; to make the image in center of the div*/
+    background-position: center;
+    background-attachment: fixed;
+}
+.heading{
+    color: blueviolet;
+    margin: 20px 0px;
+    text-align: center;
+}
+p{
+    padding: 20px;
+    text-align: justify;
+    font-size: 18px;
+}
+nav{
+    background-color: rgb(64, 175, 227);
+    position: fixed;
+    /* when we apply position to block level element it turns to inline element */
+    /* right, left, top, bottom, only used with position property */
+    /* when position is given we need to give size to that nav or div */
+    width: 100%;
+    height: 66px;
+    z-index: 2;
+}
+
+.parent_box{
+    position: relative;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(64, 175, 227);
+    border: 2px solid black;
+    /* float: left; */
+    margin-left: 10px;
+    position: absolute;
+    /* top: 0; */
+}
+/* #box1{
+    position: relative;
+    top: 30px;
+} */
+#box2{
+    z-index: 1;
+    /* by default z-index value is 0. give greater value to bring it to front */
+    margin-left: 270px;
+}
+#box3{
+    margin-left: 530px;
+}
+#box4{
+    margin-left: 790px;
+}
+marquee{
+    background-color: rgb(115, 193, 229);
+    position: sticky;
+    top: 66px;
+}

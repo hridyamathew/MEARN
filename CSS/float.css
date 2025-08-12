@@ -1,0 +1,9 @@
+.col{
+    border: 3px solid black;
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+    /* float: left, right */
+    float: left;
+    margin-left: 10px;
+}
